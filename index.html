@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grovia - Fresh Groceries Delivered</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sticky Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Grovia</div>
+            
+            <div class="nav-search">
+                <input type="text" placeholder="Search fresh groceries..." class="search-input">
+            </div>
+            
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#shop" class="nav-link">Shop</a>
+                <a href="#cart" class="nav-link">Cart</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+        <div class="home-content">
+            <div class="home-text">
+                <h1 class="home-title">Fresh groceries, thoughtfully delivered</h1>
+                <p class="home-subtitle">Organic, local, and always fresh. Your weekly essentials, just a click away.</p>
+                <a href="#shop" class="cta-button">Shop Now</a>
+            </div>
+            <div class="home-image">
+                <div class="image-placeholder">
+                    <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=" ">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="section shop-section">
+        <div class="section-header">
+            <h2 class="section-title">Fresh Picks</h2>
+            <p class="section-subtitle">Handpicked produce delivered to your door</p>
+        </div>
+        
+        <div class="products-grid">
+            <!-- Product Card 1 -->
+            <div class="product-card">
+                <div class="product-image" style="background: linear-gradient(135deg, #FFE5E5 0%, #FFD1DC 100%);">
+                    <span class="product-icon"><img src="https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=" "></span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Fresh Red Apples</h3>
+                    <p class="product-price">₹120/kg</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product Card 2 -->
+            <div class="product-card">
+                <div class="product-image" style="background: linear-gradient(135deg, #FFF8DC 0%, #FFFACD 100%);">
+                    <span class="product-icon"><img src="https://images.unsplash.com/photo-1647377502180-7604b5470dbe?q=80&w=1025&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=" "></span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Organic Bananas</h3>
+                    <p class="product-price">₹60/dozen</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product Card 3 -->
+            <div class="product-card">
+                <div class="product-image" style="background: linear-gradient(135deg, #E6F7E6 0%, #D4F1D4 100%);">
+                    <span class="product-icon"><img src="https://images.unsplash.com/photo-1683536905403-ea18a3176d29?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=" "></span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Fresh Spinach</h3>
+                    <p class="product-price">₹40/bunch</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product Card 4 -->
+            <div class="product-card">
+                <div class="product-image" style="background: linear-gradient(135deg, #FFE4E1 0%, #FFC1C1 100%);">
+                    <span class="product-icon"><img src="https://images.unsplash.com/photo-1524593166156-312f362cada0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=" "></span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Ripe Tomatoes</h3>
+                    <p class="product-price">₹80/kg</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product Card 5 -->
+            <div class="product-card">
+                <div class="product-image" style="background: linear-gradient(135deg, #E6E6FA 0%, #D8BFD8 100%);">
+                    <span class="product-icon"><img src="https://plus.unsplash.com/premium_photo-1682129071833-65eed17bcf11?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=" "></span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Fresh Milk</h3>
+                    <p class="product-price">₹65/liter</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product Card 6 -->
+            <div class="product-card">
+                <div class="product-image" style="background: linear-gradient(135deg, #FFF5E1 0%, #FFE4B5 100%);">
+                    <span class="product-icon"><img src="https://plus.unsplash.com/premium_photo-1726761713380-59275b2dc2c5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=" "></span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Whole Wheat Bread</h3>
+                    <p class="product-price">₹45/loaf</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product Card 7 -->
+            <div class="product-card">
+                <div class="product-image" style="background: linear-gradient(135deg, #E0F8F7 0%, #B2E0DF 100%);">
+                    <span class="product-icon"><img src="https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=" "></span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Fresh Cucumber</h3>
+                    <p class="product-price">₹35/kg</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product Card 8 -->
+            <div class="product-card">
+                <div class="product-image" style="background: linear-gradient(135deg, #FFF0F5 0%, #FFE4E1 100%);">
+                    <span class="product-icon"><img src="https://images.unsplash.com/photo-1639086495429-d60e72c53c81?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=" "></span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Organic Carrots</h3>
+                    <p class="product-price">₹55/kg</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product Card 9 -->
+            <div class="product-card">
+                <div class="product-image" style="background: linear-gradient(135deg, #FFF8DC 0%, #FFEFD5 100%);">
+                    <span class="product-icon"><img src="https://plus.unsplash.com/premium_photo-1667047164703-15ffa198f8d4?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=" "></span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Sweet Corn</h3>
+                    <p class="product-price">₹50/kg</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product Card 10 -->
+            <div class="product-card">
+                <div class="product-image" style="background: linear-gradient(135deg, #F0E6FF 0%, #E6D5FF 100%);">
+                    <span class="product-icon"><img src="https://images.unsplash.com/photo-1605197378298-02bf0af1c896?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=" "></span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Red Onions</h3>
+                    <p class="product-price">₹70/kg</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product Card 11 -->
+            <div class="product-card">
+                <div class="product-image" style="background: linear-gradient(135deg, #E8F8F5 0%, #D5F4E6 100%);">
+                    <span class="product-icon"><img src="https://images.unsplash.com/photo-1764587492501-bf8b61c09792?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=" "></span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Farm Potatoes</h3>
+                    <p class="product-price">₹30/kg</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product Card 12 -->
+            <div class="product-card">
+                <div class="product-image" style="background: linear-gradient(135deg, #FFF5F0 0%, #FFE6D9 100%);">
+                    <span class="product-icon"><img src="https://images.unsplash.com/photo-1722581628287-fffddabb87d1?q=80&w=1113&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=" "></span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Fresh Oranges</h3>
+                    <p class="product-price">₹90/kg</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Section -->
+    <section id="cart" class="section cart-section">
+        <div class="cart-container">
+            <h2 class="section-title">Your Cart</h2>
+            
+            <div class="cart-content">
+                <div class="cart-items">
+                    <!-- Cart Item 1 -->
+                    <div class="cart-item">
+                        <div class="cart-item-icon"><img src="https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=" "></div>
+                        <div class="cart-item-details">
+                            <h4>Fresh Red Apples</h4>
+                            <p>Quantity: 2 kg</p>
+                        </div>
+                        <div class="cart-item-price">₹240</div>
+                    </div>
+
+                    <!-- Cart Item 2 -->
+                    <div class="cart-item">
+                        <div class="cart-item-icon"><img src="https://plus.unsplash.com/premium_photo-1682129071833-65eed17bcf11?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=" "></div>
+                        <div class="cart-item-details">
+                            <h4>Fresh Milk</h4>
+                            <p>Quantity: 3 liters</p>
+                        </div>
+                        <div class="cart-item-price">₹195</div>
+                    </div>
+
+                    <!-- Cart Item 3 -->
+                    <div class="cart-item">
+                        <div class="cart-item-icon"><img src="https://plus.unsplash.com/premium_photo-1726761713380-59275b2dc2c5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=" "></div>
+                        <div class="cart-item-details">
+                            <h4>Whole Wheat Bread</h4>
+                            <p>Quantity: 2 loaves</p>
+                        </div>
+                        <div class="cart-item-price">₹90</div>
+                    </div>
+                </div>
+
+                <div class="cart-summary">
+                    <div class="cart-total">
+                        <span>Subtotal:</span>
+                        <span>₹525</span>
+                    </div>
+                    <div class="cart-total">
+                        <span>Delivery:</span>
+                        <span>₹40</span>
+                    </div>
+                    <div class="cart-total cart-total-final">
+                        <span>Total:</span>
+                        <span>₹565</span>
+                    </div>
+                    <button class="checkout-btn">Proceed to Checkout</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="contact-description">
+                    Grovia brings farm-fresh groceries to your doorstep. We believe in sustainable farming, 
+                    supporting local farmers, and delivering quality produce that nourishes your family.
+                </p>
+                <div class="contact-details">
+                    <p>📧 hello@Grovia.com</p>
+                    <p>📱 +91 98765 43210</p>
+                    <p>📍 123 Green Street, Organic Lane</p>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" class="form-input"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Grovia. Fresh groceries, thoughtfully delivered. 🌿</p>
+    </footer>
+</body>
+</html>
